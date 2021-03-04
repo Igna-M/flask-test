@@ -5,6 +5,9 @@ app = application
 
 @app.route('/')
 def hello_humans():
-    return 'Seguros Agropecuarios'
+
+    saludo_inicial = 'Hola humanos!'
+
+    return saludo_inicial
 
 
